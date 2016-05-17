@@ -8,7 +8,7 @@
       par = node.parentNode;
       fs = 20;
       for (;;) {
-        if (fs > 1000 || node.offsetWidth > 0.95 * par.offsetWidth) {
+        if (fs > 1000 || node.offsetWidth > par.offsetWidth) {
           break;
         }
         fs += 2;

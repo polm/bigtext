@@ -4,7 +4,7 @@ main = ->
 
     fs = 20
     while true
-      if fs > 1000 or node.offset-width > 0.95 * par.offset-width
+      if fs > 1000 or node.offset-width > par.offset-width
         break
       fs += 2
       node.style.font-size = fs + 'px'
